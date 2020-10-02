@@ -1,6 +1,8 @@
-'use = strict';
 
-const btnBurger = document.querySelector('.btn-burger'),
+
+// 1 BURGER-MENU script 
+export const catalog = () => {
+    const btnBurger = document.querySelector('.btn-burger'),
     catalog = document.querySelector('.catalog'),
     btnClose = document.querySelector('.btn-close'),
     subCatalog = document.querySelector('.subcatalog'),
@@ -47,3 +49,7 @@ document.addEventListener('keydown', (event) => {
       closeMenu();
   }
 });
+};
+// 1 BURGER-MENU script end
+
+
